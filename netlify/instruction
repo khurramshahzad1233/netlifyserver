@@ -1,0 +1,12 @@
+follow instruction fron documentation 
+go to integration
+then go to express
+after follow all instruction
+go to deploy
+then open command prompt and add both command as mention in doc
+add everything in repository
+and what ever you make any changes in vs code
+everytime need to use command 
+npm run build
+check packg.json and check command
+dont forget plz
