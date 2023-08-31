@@ -179,9 +179,11 @@ export const getwebhookscontroller=catchasyncerror(async(req,res,next)=>{
 });
 
 export const getnetlifycontroller=catchasyncerror(async(req,res,next)=>{
+  let apikey=process.env.DUFFEL_API_KEY;
   res.status(200).json({
     success:true,
-    message:"netlify deploy successfully"
+    message:"netlify deploy successfully",
+    key:apikey,
   })
 })
 
